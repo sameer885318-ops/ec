@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "./firebase";
-import "./AddProduct.css";
+import "./Addproduct.css";
 
 function AddProduct() {
   const [name, setName] = useState("");
